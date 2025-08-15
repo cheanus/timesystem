@@ -1,0 +1,13 @@
+site_name: 时间经济方案
+site_url: http://127.0.0.1:3456
+theme:
+  name: material
+  language: zh
+copyright: Time System © 2025 by cheanus is licensed under CC BY 4.0
+nav:
+  - Home: index.md
+  - 1.规则:
+    - 1.1基本规则: 1.规则/1.1.基本规则.md
+    - 1.2延伸制度: 1.规则/1.2.延伸规则.md
+  - 2.优势: 2.优势.md
+  - 3.意识形态: 3.意识形态.md
