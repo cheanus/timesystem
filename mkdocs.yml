@@ -14,6 +14,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+extra_css:
+  - stylesheets/extra.css
 copyright: Time System © 2025 by cheanus is licensed under CC BY 4.0
 markdown_extensions:
   # Python Markdown
