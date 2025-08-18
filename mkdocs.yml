@@ -1,5 +1,6 @@
-site_name: 时间经济方案
+site_name: 时间经济项目
 site_url: https://cheanus.github.io/timesystem/
+# site_url: http://127.0.0.1:3456
 repo_url: https://github.com/cheanus/timesystem
 repo_name: cheanus/timesystem
 theme:
@@ -27,6 +28,9 @@ theme:
         name: Switch to system preference
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 copyright: Time System © 2025 by cheanus is licensed under CC BY 4.0
 markdown_extensions:
   # Python Markdown
@@ -62,7 +66,9 @@ markdown_extensions:
 nav:
   - Home: index.md
   - 1.规则:
-    - 1.1基本规则: 1.规则/1.1.基本规则.md
-    - 1.2延伸制度: 1.规则/1.2.延伸规则.md
+    - 1.1.基本规则: 1.规则/1.1.基本规则.md
+    - 1.2.延伸制度: 1.规则/1.2.延伸规则.md
   - 2.优势: 2.优势.md
   - 3.意识形态: 3.意识形态.md
+  - 4.社会分析:
+    - 4.1.利率: 4.社会分析/4.1.利率.md
