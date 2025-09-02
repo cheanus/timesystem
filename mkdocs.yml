@@ -73,7 +73,6 @@ plugins:
           name: 中文
           build: true
         - locale: en
-          default: true
           name: English
           build: true
           nav_translations:
