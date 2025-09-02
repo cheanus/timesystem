@@ -63,13 +63,35 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
+plugins:
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: zh
+          default: true
+          name: 中文
+          build: true
+        - locale: en
+          default: true
+          name: English
+          build: true
+          nav_translations:
+            1.规则: 1. Rules
+            1.1.基本规则: 1.1. Basic Rules
+            1.2.延伸制度: 1.2. Extended Rules
+            2.优势: 2. Advantages
+            3.意识形态: 3. Ideologies
+            4.社会分析: 4. Social Analysis
+            4.1.利率: 4.1. Interest Rate
+            4.2.货币非国家化: 4.2. Currency Denationalization
 nav:
-  - Home: index.md
+  - Home: zh/index.md
   - 1.规则:
-    - 1.1.基本规则: 1.规则/1.1.基本规则.md
-    - 1.2.延伸制度: 1.规则/1.2.延伸规则.md
-  - 2.优势: 2.优势.md
-  - 3.意识形态: 3.意识形态.md
+    - 1.1.基本规则: zh/1.规则/1.1.基本规则.md
+    - 1.2.延伸制度: zh/1.规则/1.2.延伸规则.md
+  - 2.优势: zh/2.优势.md
+  - 3.意识形态: zh/3.意识形态.md
   - 4.社会分析:
-    - 4.1.利率: 4.社会分析/4.1.利率.md
-    - 4.2.货币非国家化: 4.社会分析/4.2.货币非国家化.md
+    - 4.1.利率: zh/4.社会分析/4.1.利率.md
+    - 4.2.货币非国家化: zh/4.社会分析/4.2.货币非国家化.md
