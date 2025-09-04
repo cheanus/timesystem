@@ -16,6 +16,7 @@ There are still many gaps in the Time Economy Project, such as how to establish 
 - 4\. Social Analysis
     - 4.1\. [Interest Rate](4.社会分析/4.1.利率.md)
     - 4.2\. [Currency Denationalization](4.社会分析/4.2.货币非国家化.md)
+    - 4.3\. [Two currencies](4.社会分析/4.3.两种货币.md)
 
 ## Discussion {#discussion}
 
